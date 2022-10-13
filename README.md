@@ -163,7 +163,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 1](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_1.png)<br>
+  ![Level 1](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_1.png)<br>
   Here we have two separate networks, each consisting of two computers.<br>
   In order to make it work, the two computers need to be part of the same network.<br>
   Because the mask of A and B is `255.255.255.0` the possible IP-adresses of A1 are <br>`104.99.23.1 - 104.99.23.254`.<br>
@@ -181,7 +181,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 2](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_2.png)<br>
+  ![Level 2](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_2.png)<br>
   Here we have two separate networks again, but this time we need to set the mask and IP correctly.<br>
   For the network of A and B, they need the same mask, `255.255.255.224`.<br>
   The available IP-addresses for A1 are `192.168.57.193 - 192.168.57.221`.<br>
@@ -203,7 +203,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 3](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_3.png)<br>
+  ![Level 3](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_3.png)<br>
   In this level we have our first encounter with a [Switch](https://github.com/MateyN/NetPractice#switches).<br>
   Since we can't manipulate the mask of C, `255.255.255.128` will be the mask of the whole network.<br>
   A has a fix IP, so the whole networks range will be `104.198.187.1 - 104.198.187.126`.
@@ -220,7 +220,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 4](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_4.png)<br>
+  ![Level 4](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_4.png)<br>
   This is our first time running into a router, since the router does not connect to anything else, there is no routing table, that needs to be worked with.<br>
   A has a fixed IP, so this will define the IP of our network.<br>
   You can freely choose a fitting mask for the network, but the subnet has to have at least 3 usable IP-addresses, <br> so choosing `255.255.255.240`/`/28` will create a subnet of 14 usable addresses.<br>
@@ -239,7 +239,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 5](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_5.png)<br>
+  ![Level 5](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_5.png)<br>
   Here we first come by the mighty routing table.<br>
   R1 has a fixed IP of `80.103.79.126` and a fixed mask of `255.255.255.128`, which results in a mask of `255.255.255.128` and an IP-range of `80.103.79.1 - 80.103.79.125` for A1.
 
@@ -261,7 +261,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 6](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_6.png)<br>
+  ![Level 6](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_6.png)<br>
   This level introduces us to the Internet.<br>
   We again start with looking at the fixed IP-addresses and masks.
 
@@ -294,7 +294,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 7](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_7.png)<br>
+  ![Level 7](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_7.png)<br>
   Level 7 is pretty straight forward and not too complicated, you just need to make sure that no networks overlap with each other.
 
 
@@ -320,7 +320,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 8](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_8.png)<br>
+  ![Level 8](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_8.png)<br>
   Level 8 now will be a little tricky because you really need to be aware of overlapping networks.
 
 
@@ -365,7 +365,7 @@ Here are all the solutions and explanations to all 10 Levels.<br>
 <details>
   <summary>show</summary>
 
-  ![Level 9](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_9.png)<br>
+  ![Level 9](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_9.png)<br>
   In Level 9 we encounter another weakness of the project. The router is not doing any IP-translation when a computer reaches out to the internet.<br>
   This can be seen by trying to connect C to the internet.
 
@@ -453,7 +453,7 @@ Our fixed IP is part of `63.239.64.0 - 63.239.127.255`, so the network-address i
   <summary>show</summary>
 
 
-  ![Level 10](https://github.com/MateyN/NetPractice/blob/main/solutions/Level_10.png)
+  ![Level 10](https://github.com/MateyN/NetPractice/blob/master/solutions/Level_10.png)
 
   The easiest part will be the connection of H2 and H1 in their network.<br>
   The mask of this network is fixed by R11, set the masks of H21 and H11 accordingly.<br>
